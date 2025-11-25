@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-box {
+    width: 30%;
+    height: 350px;
+    border: 1px solid;
+    margin: 40px auto;
+    padding: 35px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+
+}
+
+.facebook {
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    border: 0.667px solid rgb(14, 17, 16);
+    padding: 14px;
+    border-radius: 10px;
+}
+
+.fb {
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    border: 0.667px solid rgb(20, 9, 9);
+    padding: 14px;
+    border-radius: 10px;
+    /* border: none; */
+    text-decoration: none;
+    color: blue;
+}
+
+.fb::after {
+    text-decoration: underline;
+}
+
+.submit {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: blue;
+    padding: 12px auto 12px;
+    border-radius: 10px;
+    border: none;
+
+
+}
+
+.fp {
+    margin-top: 15px;
+    margin-left: 90px;
+    text-decoration: none;
+}
+
+.sb {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: rgb(6, 160, 27);
+    padding: 12px auto 12px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 55px;
+    border: none;
+
+}
+
+body {
+    background-color: #F2F7F7;
+}
